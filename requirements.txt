@@ -1,0 +1,5 @@
+libsql-experimental>=0.0.50
+fastembed>=0.4.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+tqdm>=4.66.0

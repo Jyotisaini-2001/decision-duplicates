@@ -1,0 +1,602 @@
+[
+  {
+    "rowid": 1,
+    "decision_id": "dec_00042",
+    "content": "Ship hotfix HF-42 for bug BUG-42 to production tonight.",
+    "metadata": null
+  },
+  {
+    "rowid": 2,
+    "decision_id": "dec_00041",
+    "content": "Reject RFC RFC-41 about feature FEAT-41.",
+    "metadata": null
+  },
+  {
+    "rowid": 3,
+    "decision_id": "dec_00091",
+    "content": "Set customer CUST-91 discount to 24% through 8/2025.",
+    "metadata": null
+  },
+  {
+    "rowid": 4,
+    "decision_id": "dec_00009",
+    "content": "Postgres is the chosen database.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 5,
+    "decision_id": "dec_00065",
+    "content": "Rename project PRJ-65 to codename onyx65.",
+    "metadata": null
+  },
+  {
+    "rowid": 6,
+    "decision_id": "dec_00050",
+    "content": "Rename project PRJ-50 to codename nebula50.",
+    "metadata": null
+  },
+  {
+    "rowid": 7,
+    "decision_id": "dec_00001",
+    "content": "Release date is set for Friday.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 8,
+    "decision_id": "dec_00070",
+    "content": "Schedule maintenance WIN-70 on host HST-70 at 22:00 UTC.",
+    "metadata": null
+  },
+  {
+    "rowid": 9,
+    "decision_id": "dec_00015",
+    "content": "Remote work is allowed three days per week.",
+    "metadata": "{\"planted_group\": 2}"
+  },
+  {
+    "rowid": 10,
+    "decision_id": "dec_00078",
+    "content": "Promote employee EMP-78 to level L2 on team bravo.",
+    "metadata": null
+  },
+  {
+    "rowid": 11,
+    "decision_id": "dec_00073",
+    "content": "Set KPI KPI-73 target to 30 for squad SQ-73.",
+    "metadata": null
+  },
+  {
+    "rowid": 12,
+    "decision_id": "dec_00010",
+    "content": "We're standardizing on PostgreSQL for storage.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 13,
+    "decision_id": "dec_00055",
+    "content": "Schedule maintenance WIN-55 on host HST-55 at 7:00 UTC.",
+    "metadata": null
+  },
+  {
+    "rowid": 14,
+    "decision_id": "dec_00056",
+    "content": "Reject RFC RFC-56 about feature FEAT-56.",
+    "metadata": null
+  },
+  {
+    "rowid": 15,
+    "decision_id": "dec_00072",
+    "content": "Ship hotfix HF-72 for bug BUG-72 to production tonight.",
+    "metadata": null
+  },
+  {
+    "rowid": 16,
+    "decision_id": "dec_00045",
+    "content": "Award contract CONT-45 to vendor VND-45 for $775k.",
+    "metadata": null
+  },
+  {
+    "rowid": 17,
+    "decision_id": "dec_00048",
+    "content": "Promote employee EMP-48 to level L7 on team golf.",
+    "metadata": null
+  },
+  {
+    "rowid": 18,
+    "decision_id": "dec_00092",
+    "content": "Close office LOC-92 in Dhaka effective 9/9.",
+    "metadata": null
+  },
+  {
+    "rowid": 19,
+    "decision_id": "dec_00076",
+    "content": "Set customer CUST-76 discount to 29% through 5/2025.",
+    "metadata": null
+  },
+  {
+    "rowid": 20,
+    "decision_id": "dec_00037",
+    "content": "Recruit two backend developers this quarter.",
+    "metadata": "{\"planted_group\": 5}"
+  },
+  {
+    "rowid": 21,
+    "decision_id": "dec_00030",
+    "content": "End-of-year deadline to shut down the legacy API.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 22,
+    "decision_id": "dec_00021",
+    "content": "Raise prices by 10% starting next quarter.",
+    "metadata": "{\"planted_group\": 3}"
+  },
+  {
+    "rowid": 23,
+    "decision_id": "dec_00032",
+    "content": "Phase out the outdated API by December.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 24,
+    "decision_id": "dec_00096",
+    "content": "Cap wallet WAL-96 spend at $742/day.",
+    "metadata": null
+  },
+  {
+    "rowid": 25,
+    "decision_id": "dec_00080",
+    "content": "Rename project PRJ-80 to codename pebble80.",
+    "metadata": null
+  },
+  {
+    "rowid": 26,
+    "decision_id": "dec_00049",
+    "content": "Block IP range NET-49.0/24 after incident INC-49.",
+    "metadata": null
+  },
+  {
+    "rowid": 27,
+    "decision_id": "dec_00083",
+    "content": "Archive channel CH-83 and move history to vault VT-83.",
+    "metadata": null
+  },
+  {
+    "rowid": 28,
+    "decision_id": "dec_00026",
+    "content": "We'll bump prices ten percent next quarter.",
+    "metadata": "{\"planted_group\": 3}"
+  },
+  {
+    "rowid": 29,
+    "decision_id": "dec_00087",
+    "content": "Ship hotfix HF-87 for bug BUG-87 to production tonight.",
+    "metadata": null
+  },
+  {
+    "rowid": 30,
+    "decision_id": "dec_00033",
+    "content": "Legacy endpoints will be removed by EOY.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 31,
+    "decision_id": "dec_00008",
+    "content": "Use PostgreSQL as our primary database.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 32,
+    "decision_id": "dec_00047",
+    "content": "Close office LOC-47 in Perth effective 12/20.",
+    "metadata": null
+  },
+  {
+    "rowid": 33,
+    "decision_id": "dec_00059",
+    "content": "Buy domain DOM-59.example for campaign CMP-59.",
+    "metadata": null
+  },
+  {
+    "rowid": 34,
+    "decision_id": "dec_00063",
+    "content": "Promote employee EMP-63 to level L1 on team alpha.",
+    "metadata": null
+  },
+  {
+    "rowid": 35,
+    "decision_id": "dec_00074",
+    "content": "Buy domain DOM-74.example for campaign CMP-74.",
+    "metadata": null
+  },
+  {
+    "rowid": 36,
+    "decision_id": "dec_00044",
+    "content": "Buy domain DOM-44.example for campaign CMP-44.",
+    "metadata": null
+  },
+  {
+    "rowid": 37,
+    "decision_id": "dec_00098",
+    "content": "Archive channel CH-98 and move history to vault VT-98.",
+    "metadata": null
+  },
+  {
+    "rowid": 38,
+    "decision_id": "dec_00052",
+    "content": "Route region REG-52 traffic to cluster CLS-52.",
+    "metadata": null
+  },
+  {
+    "rowid": 39,
+    "decision_id": "dec_00085",
+    "content": "Schedule maintenance WIN-85 on host HST-85 at 13:00 UTC.",
+    "metadata": null
+  },
+  {
+    "rowid": 40,
+    "decision_id": "dec_00012",
+    "content": "Primary datastore will be Postgres.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 41,
+    "decision_id": "dec_00036",
+    "content": "Approved headcount: 2 backend engineers.",
+    "metadata": "{\"planted_group\": 5}"
+  },
+  {
+    "rowid": 42,
+    "decision_id": "dec_00023",
+    "content": "Approved a 10 percent price increase for Q+1.",
+    "metadata": "{\"planted_group\": 3}"
+  },
+  {
+    "rowid": 43,
+    "decision_id": "dec_00039",
+    "content": "Grant role ROLE-39 to service account SA-39 only.",
+    "metadata": null
+  },
+  {
+    "rowid": 44,
+    "decision_id": "dec_00040",
+    "content": "Schedule maintenance WIN-40 on host HST-40 at 16:00 UTC.",
+    "metadata": null
+  },
+  {
+    "rowid": 45,
+    "decision_id": "dec_00018",
+    "content": "Approved: three remote days per week.",
+    "metadata": "{\"planted_group\": 2}"
+  },
+  {
+    "rowid": 46,
+    "decision_id": "dec_00066",
+    "content": "Cap wallet WAL-66 spend at $232/day.",
+    "metadata": null
+  },
+  {
+    "rowid": 47,
+    "decision_id": "dec_00061",
+    "content": "Set customer CUST-61 discount to 34% through 2/2025.",
+    "metadata": null
+  },
+  {
+    "rowid": 48,
+    "decision_id": "dec_00060",
+    "content": "Award contract CONT-60 to vendor VND-60 for $130k.",
+    "metadata": null
+  },
+  {
+    "rowid": 49,
+    "decision_id": "dec_00007",
+    "content": "Ship date locked to Friday.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 50,
+    "decision_id": "dec_00034",
+    "content": "Hire two backend engineers this quarter.",
+    "metadata": "{\"planted_group\": 5}"
+  },
+  {
+    "rowid": 51,
+    "decision_id": "dec_00099",
+    "content": "Grant role ROLE-99 to service account SA-99 only.",
+    "metadata": null
+  },
+  {
+    "rowid": 52,
+    "decision_id": "dec_00046",
+    "content": "Set customer CUST-46 discount to 39% through 11/2025.",
+    "metadata": null
+  },
+  {
+    "rowid": 53,
+    "decision_id": "dec_00002",
+    "content": "We're launching this Friday.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 54,
+    "decision_id": "dec_00051",
+    "content": "Cap wallet WAL-51 spend at $877/day.",
+    "metadata": null
+  },
+  {
+    "rowid": 55,
+    "decision_id": "dec_00016",
+    "content": "Hybrid policy: 3 days WFH each week.",
+    "metadata": "{\"planted_group\": 2}"
+  },
+  {
+    "rowid": 56,
+    "decision_id": "dec_00038",
+    "content": "Decision: add two backend engineers ASAP this quarter.",
+    "metadata": "{\"planted_group\": 5}"
+  },
+  {
+    "rowid": 57,
+    "decision_id": "dec_00058",
+    "content": "Set KPI KPI-58 target to 35 for squad SQ-58.",
+    "metadata": null
+  },
+  {
+    "rowid": 58,
+    "decision_id": "dec_00068",
+    "content": "Archive channel CH-68 and move history to vault VT-68.",
+    "metadata": null
+  },
+  {
+    "rowid": 59,
+    "decision_id": "dec_00022",
+    "content": "Next quarter we increase pricing 10%.",
+    "metadata": "{\"planted_group\": 3}"
+  },
+  {
+    "rowid": 60,
+    "decision_id": "dec_00062",
+    "content": "Close office LOC-62 in Quebec effective 3/7.",
+    "metadata": null
+  },
+  {
+    "rowid": 61,
+    "decision_id": "dec_00024",
+    "content": "Pricing goes up 10% beginning next quarter.",
+    "metadata": "{\"planted_group\": 3}"
+  },
+  {
+    "rowid": 62,
+    "decision_id": "dec_00005",
+    "content": "Decision: Friday launch for the product.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 63,
+    "decision_id": "dec_00006",
+    "content": "We'll put the product out on Friday.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 64,
+    "decision_id": "dec_00067",
+    "content": "Route region REG-67 traffic to cluster CLS-67.",
+    "metadata": null
+  },
+  {
+    "rowid": 65,
+    "decision_id": "dec_00082",
+    "content": "Route region REG-82 traffic to cluster CLS-82.",
+    "metadata": null
+  },
+  {
+    "rowid": 66,
+    "decision_id": "dec_00019",
+    "content": "WFH allowance set at 3 days/week.",
+    "metadata": "{\"planted_group\": 2}"
+  },
+  {
+    "rowid": 67,
+    "decision_id": "dec_00079",
+    "content": "Block IP range NET-79.0/24 after incident INC-79.",
+    "metadata": null
+  },
+  {
+    "rowid": 68,
+    "decision_id": "dec_00043",
+    "content": "Set KPI KPI-43 target to 40 for squad SQ-43.",
+    "metadata": null
+  },
+  {
+    "rowid": 69,
+    "decision_id": "dec_00090",
+    "content": "Award contract CONT-90 to vendor VND-90 for $640k.",
+    "metadata": null
+  },
+  {
+    "rowid": 70,
+    "decision_id": "dec_00020",
+    "content": "Three days remote, two in office — that's the policy.",
+    "metadata": "{\"planted_group\": 2}"
+  },
+  {
+    "rowid": 71,
+    "decision_id": "dec_00000",
+    "content": "We decided to ship the product on Friday.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 72,
+    "decision_id": "dec_00095",
+    "content": "Rename project PRJ-95 to codename quartz95.",
+    "metadata": null
+  },
+  {
+    "rowid": 73,
+    "decision_id": "dec_00057",
+    "content": "Ship hotfix HF-57 for bug BUG-57 to production tonight.",
+    "metadata": null
+  },
+  {
+    "rowid": 74,
+    "decision_id": "dec_00093",
+    "content": "Promote employee EMP-93 to level L3 on team charlie.",
+    "metadata": null
+  },
+  {
+    "rowid": 75,
+    "decision_id": "dec_00053",
+    "content": "Archive channel CH-53 and move history to vault VT-53.",
+    "metadata": null
+  },
+  {
+    "rowid": 76,
+    "decision_id": "dec_00089",
+    "content": "Buy domain DOM-89.example for campaign CMP-89.",
+    "metadata": null
+  },
+  {
+    "rowid": 77,
+    "decision_id": "dec_00025",
+    "content": "Decision: 10% price hike effective next quarter.",
+    "metadata": "{\"planted_group\": 3}"
+  },
+  {
+    "rowid": 78,
+    "decision_id": "dec_00071",
+    "content": "Reject RFC RFC-71 about feature FEAT-71.",
+    "metadata": null
+  },
+  {
+    "rowid": 79,
+    "decision_id": "dec_00084",
+    "content": "Grant role ROLE-84 to service account SA-84 only.",
+    "metadata": null
+  },
+  {
+    "rowid": 80,
+    "decision_id": "dec_00077",
+    "content": "Close office LOC-77 in Accra effective 6/22.",
+    "metadata": null
+  },
+  {
+    "rowid": 81,
+    "decision_id": "dec_00064",
+    "content": "Block IP range NET-64.0/24 after incident INC-64.",
+    "metadata": null
+  },
+  {
+    "rowid": 82,
+    "decision_id": "dec_00029",
+    "content": "We're retiring the old API before year-end.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 83,
+    "decision_id": "dec_00027",
+    "content": "Deprecate the legacy API by end of year.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 84,
+    "decision_id": "dec_00088",
+    "content": "Set KPI KPI-88 target to 25 for squad SQ-88.",
+    "metadata": null
+  },
+  {
+    "rowid": 85,
+    "decision_id": "dec_00097",
+    "content": "Route region REG-97 traffic to cluster CLS-97.",
+    "metadata": null
+  },
+  {
+    "rowid": 86,
+    "decision_id": "dec_00004",
+    "content": "Agreed: product ships Friday.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 87,
+    "decision_id": "dec_00054",
+    "content": "Grant role ROLE-54 to service account SA-54 only.",
+    "metadata": null
+  },
+  {
+    "rowid": 88,
+    "decision_id": "dec_00075",
+    "content": "Award contract CONT-75 to vendor VND-75 for $385k.",
+    "metadata": null
+  },
+  {
+    "rowid": 89,
+    "decision_id": "dec_00011",
+    "content": "Decision: PostgreSQL for the main DB.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 90,
+    "decision_id": "dec_00069",
+    "content": "Grant role ROLE-69 to service account SA-69 only.",
+    "metadata": null
+  },
+  {
+    "rowid": 91,
+    "decision_id": "dec_00086",
+    "content": "Reject RFC RFC-86 about feature FEAT-86.",
+    "metadata": null
+  },
+  {
+    "rowid": 92,
+    "decision_id": "dec_00013",
+    "content": "Adopt PostgreSQL as the database of record.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 93,
+    "decision_id": "dec_00017",
+    "content": "Employees may work from home three days weekly.",
+    "metadata": "{\"planted_group\": 2}"
+  },
+  {
+    "rowid": 94,
+    "decision_id": "dec_00028",
+    "content": "Legacy API sunset date: December 31.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 95,
+    "decision_id": "dec_00031",
+    "content": "Decision: legacy API gone by year end.",
+    "metadata": "{\"planted_group\": 4}"
+  },
+  {
+    "rowid": 96,
+    "decision_id": "dec_00035",
+    "content": "We're opening two backend eng roles this Q.",
+    "metadata": "{\"planted_group\": 5}"
+  },
+  {
+    "rowid": 97,
+    "decision_id": "dec_00094",
+    "content": "Block IP range NET-94.0/24 after incident INC-94.",
+    "metadata": null
+  },
+  {
+    "rowid": 98,
+    "decision_id": "dec_00003",
+    "content": "Friday is the go-live day for the product.",
+    "metadata": "{\"planted_group\": 0}"
+  },
+  {
+    "rowid": 99,
+    "decision_id": "dec_00014",
+    "content": "We picked Postgres over MySQL for the database.",
+    "metadata": "{\"planted_group\": 1}"
+  },
+  {
+    "rowid": 100,
+    "decision_id": "dec_00081",
+    "content": "Cap wallet WAL-81 spend at $487/day.",
+    "metadata": null
+  }
+]

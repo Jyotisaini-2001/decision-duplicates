@@ -1,0 +1,117 @@
+category,text_a,text_b,expected,cosine,jaccard,semantic_only,semantic_plus_jaccard,semantic_plus_critical,critical_status,critical_reason
+A,We decided to ship the product on Friday.,Release date is set for Friday.,True,0.755111,0.076923,True,True,True,no_conflict,no confident conflict
+A,We're launching this Friday.,Ship date locked to Friday.,True,0.670753,0.111111,False,False,False,unknown,action polarity not confident on both sides
+A,Friday is the go-live day for the product.,We'll put the product out on Friday.,True,0.847909,0.230769,True,True,True,unknown,action polarity not confident on both sides
+A,Agreed: product ships Friday.,Decision: Friday launch for the product.,True,0.817108,0.25,True,True,True,unknown,action polarity not confident on both sides
+A,Use PostgreSQL as our primary database.,Postgres is the chosen database.,True,0.871814,0.1,True,True,True,unknown,action polarity not confident on both sides
+A,We're standardizing on PostgreSQL for storage.,Primary datastore will be Postgres.,True,0.842547,0.0,True,True,True,unknown,action polarity not confident on both sides
+A,Decision: PostgreSQL for the main DB.,We picked Postgres over MySQL for the database.,True,0.868897,0.166667,True,True,True,unknown,action polarity not confident on both sides
+A,Adopt PostgreSQL as the database of record.,Postgres is the chosen database.,True,0.870535,0.2,True,True,True,unknown,action polarity not confident on both sides
+A,Remote work is allowed three days per week.,Hybrid policy: 3 days WFH each week.,True,0.764981,0.153846,True,True,True,unknown,action polarity not confident on both sides
+A,Employees may work from home three days weekly.,WFH allowance set at 3 days/week.,True,0.754579,0.071429,True,True,True,unknown,action polarity not confident on both sides
+A,Approved: three remote days per week.,"Three days remote, two in office — that's the policy.",True,0.799803,0.230769,True,True,True,unknown,action polarity not confident on both sides
+A,Raise prices by 10% starting next quarter.,Approved a 10 percent price increase for Q+1.,True,0.841587,0.066667,True,True,True,no_conflict,no confident conflict
+A,Next quarter we increase pricing 10%.,We'll bump prices ten percent next quarter.,True,0.902414,0.272727,True,True,True,unknown,action polarity not confident on both sides
+A,Pricing goes up 10% beginning next quarter.,Decision: 10% price hike effective next quarter.,True,0.885869,0.272727,True,True,True,unknown,action polarity not confident on both sides
+A,Deprecate the legacy API by end of year.,Legacy API sunset date: December 31.,True,0.816626,0.166667,True,True,True,no_conflict,no confident conflict
+A,We're retiring the old API before year-end.,Phase out the outdated API by December.,True,0.809071,0.142857,True,True,True,no_conflict,no confident conflict
+A,End-of-year deadline to shut down the legacy API.,Legacy endpoints will be removed by EOY.,True,0.713117,0.0625,False,False,False,unknown,action polarity not confident on both sides
+A,Hire two backend engineers this quarter.,We're opening two backend eng roles this Q.,True,0.813536,0.25,True,True,True,unknown,action polarity not confident on both sides
+A,Approved headcount: 2 backend engineers.,Recruit two backend developers this quarter.,True,0.851814,0.1,True,True,True,no_conflict,no confident conflict
+A,Decision: add two backend engineers ASAP this quarter.,Hire two backend engineers this quarter.,True,0.913763,0.555556,True,False,True,unknown,action polarity not confident on both sides
+A,Freeze hiring for the design team.,Stop recruiting designers until further notice.,True,0.835543,0.0,True,True,True,unknown,action polarity not confident on both sides
+A,Move the support queue to Zendesk.,Support tickets will be handled in Zendesk.,True,0.819857,0.181818,True,True,True,unknown,action polarity not confident on both sides
+A,Require two-factor authentication for admins.,Admin accounts must use MFA.,True,0.774509,0.0,True,True,True,unknown,action polarity not confident on both sides
+A,Cut the marketing budget by twenty percent.,Marketing spend will be reduced 20%.,True,0.873506,0.083333,True,True,True,no_conflict,no confident conflict
+A,Ship the mobile app in March.,The mobile application goes live in March.,True,0.842604,0.444444,True,False,True,unknown,action polarity not confident on both sides
+A,Cancel the vendor contract with Acme.,We will not renew Acme's contract.,True,0.799805,0.181818,True,True,True,no_conflict,no confident conflict
+A,Store customer data in the EU region.,Customer records must stay in Europe.,True,0.831272,0.181818,True,True,True,unknown,action polarity not confident on both sides
+A,Switch billing from monthly to annual.,Invoices will be yearly instead of every month.,True,0.79509,0.0,True,True,True,unknown,action polarity not confident on both sides
+B,We approved the migration to PostgreSQL.,The migration to PostgreSQL was approved.,True,0.980774,0.714286,True,False,True,no_conflict,no confident conflict
+B,We decided to ship the product on Friday.,We'll put the product out on Friday.,True,0.906852,0.454545,True,False,True,unknown,action polarity not confident on both sides
+B,Decision: Friday launch for the product.,Friday is the go-live day for the product.,True,0.823561,0.4,True,False,True,unknown,action polarity not confident on both sides
+B,Raise prices by 10% starting next quarter.,Pricing goes up 10% beginning next quarter.,True,0.918206,0.272727,True,True,True,unknown,action polarity not confident on both sides
+B,Deprecate the legacy API by end of year.,We're retiring the old API before year-end.,True,0.824845,0.307692,True,True,True,no_conflict,no confident conflict
+B,Hire two backend engineers this quarter.,Recruit two backend developers this quarter.,True,0.93726,0.5,True,False,True,no_conflict,no confident conflict
+B,Remote work is allowed three days per week.,Employees may work from home three days weekly.,True,0.847033,0.230769,True,True,True,unknown,action polarity not confident on both sides
+B,Use PostgreSQL as our primary database.,Adopt PostgreSQL as the database of record.,True,0.888463,0.3,True,True,True,unknown,action polarity not confident on both sides
+B,We will enable dark mode for the dashboard.,Dark mode will be enabled for the dashboard.,True,0.984093,0.6,True,False,True,no_conflict,no confident conflict
+B,The team approved a hiring freeze.,A hiring freeze was approved by the team.,True,0.987302,0.75,True,False,True,no_conflict,no confident conflict
+B,We chose to delay the launch until Monday.,The launch was delayed until Monday.,True,0.924909,0.4,True,False,True,no_conflict,no confident conflict
+B,Security approved rotating API keys quarterly.,Rotating API keys quarterly was approved by security.,True,0.926257,0.75,True,False,True,no_conflict,no confident conflict
+B,We agreed to keep logs for ninety days.,Logs will be kept for ninety days.,True,0.941599,0.363636,True,False,True,no_conflict,no confident conflict
+B,Product decided to remove the onboarding wizard.,The onboarding wizard will be removed.,True,0.923538,0.3,True,True,True,no_conflict,no confident conflict
+B,We will migrate CI to GitHub Actions.,CI will be migrated to GitHub Actions.,True,0.970624,0.555556,True,False,True,unknown,action polarity not confident on both sides
+B,Finance approved the 10 percent price increase.,The 10 percent price increase was approved by finance.,True,0.986399,0.777778,True,False,True,no_conflict,no confident conflict
+B,We decided to block public S3 buckets.,Public S3 buckets will be blocked.,True,0.930813,0.3,True,True,True,no_conflict,no confident conflict
+B,Leadership approved three remote days each week.,Three remote days each week were approved.,True,0.936376,0.75,True,False,True,no_conflict,no confident conflict
+B,We will sunset the legacy billing API.,The legacy billing API will be sunset.,True,0.956409,0.75,True,False,True,no_conflict,no confident conflict
+B,The board approved hiring two backend engineers.,Hiring two backend engineers was approved.,True,0.958393,0.625,True,False,True,no_conflict,no confident conflict
+B,We agreed the product ships on Friday.,"The product ships on Friday, as agreed.",True,0.954491,0.75,True,False,True,unknown,action polarity not confident on both sides
+B,We will standardize on PostgreSQL for storage.,Storage will be standardized on PostgreSQL.,True,0.966026,0.444444,True,False,True,unknown,action polarity not confident on both sides
+B,We decided to raise prices ten percent next quarter.,Next quarter prices will be raised ten percent.,True,0.960889,0.416667,True,False,True,no_conflict,no confident conflict
+B,We approved closing the legacy API in December.,Closing the legacy API in December was approved.,True,0.983531,0.777778,True,False,True,no_conflict,no confident conflict
+C,We approved the migration to PostgreSQL.,We rejected the migration to PostgreSQL.,False,0.861671,0.714286,True,False,False,conflict,"opposite actions about the same subject (shared: migration, postgresql)"
+C,We decided to ship the product on Friday.,We decided not to ship the product on Friday.,False,0.843098,0.888889,True,False,False,conflict,"opposite actions about the same subject (shared: decided, friday, product)"
+C,Hire two backend engineers this quarter.,Do not hire two backend engineers this quarter.,False,0.744629,0.75,False,False,False,conflict,"opposite actions about the same subject (shared: backend, engineers, quarter, two)"
+C,Raise prices by 10% starting next quarter.,Do not raise prices by 10% starting next quarter.,False,0.869884,0.777778,True,False,False,conflict,"opposite actions about the same subject (shared: prices, quarter)"
+C,Remote work is allowed three days per week.,Remote work is not allowed three days per week.,False,0.919956,0.888889,True,False,False,conflict,"opposite actions about the same subject (shared: days, remote, three, week, work)"
+C,We will enable dark mode for the dashboard.,We will not enable dark mode for the dashboard.,False,0.862623,0.888889,True,False,False,conflict,"opposite actions about the same subject (shared: dark, dashboard, mode)"
+C,The team approved a hiring freeze.,The team rejected a hiring freeze.,False,0.90973,0.714286,True,False,False,conflict,different team: ['approved'] vs ['rejected']
+C,We chose to delay the launch until Monday.,We chose not to delay the launch until Monday.,False,0.904128,0.888889,True,False,False,conflict,"opposite actions about the same subject (shared: chose, monday, until)"
+C,Security approved rotating API keys quarterly.,Security rejected rotating API keys quarterly.,False,0.894073,0.714286,True,False,False,conflict,"opposite actions about the same subject (shared: api, keys, quarterly, rotating, security)"
+C,We agreed to keep logs for ninety days.,We agreed not to keep logs for ninety days.,False,0.905537,0.888889,True,False,False,conflict,"opposite actions about the same subject (shared: agreed, days, logs, ninety)"
+C,Product decided to remove the onboarding wizard.,Product decided to keep the onboarding wizard.,False,0.832151,0.75,True,False,False,conflict,"opposite actions about the same subject (shared: decided, onboarding, product, wizard)"
+C,We will migrate CI to GitHub Actions.,We will not migrate CI to GitHub Actions.,False,0.815836,0.875,True,False,True,unknown,action polarity not confident on both sides
+C,We decided to block public S3 buckets.,We decided to allow public S3 buckets.,False,0.887939,0.75,True,False,False,conflict,"opposite actions about the same subject (shared: buckets, decided, public, s3)"
+C,We will sunset the legacy billing API.,We will keep the legacy billing API.,False,0.903348,0.75,True,False,False,conflict,"opposite actions about the same subject (shared: api, billing, legacy)"
+C,Leadership approved three remote days each week.,Leadership denied three remote days each week.,False,0.785308,0.75,True,False,False,conflict,"opposite actions about the same subject (shared: days, leadership, remote, three, week)"
+C,Finance approved the 10 percent price increase.,Finance rejected the 10 percent price increase.,False,0.827248,0.75,True,False,False,conflict,"opposite actions about the same subject (shared: finance, percent, price)"
+C,We will launch the mobile app in March.,We will postpone the mobile app past March.,False,0.802764,0.6,True,False,False,conflict,"opposite actions about the same subject (shared: app, march, mobile)"
+C,Cancel the vendor contract with Acme.,Renew the vendor contract with Acme.,False,0.860859,0.714286,True,False,False,conflict,"opposite actions about the same subject (shared: acme, contract, vendor)"
+C,Freeze hiring for the design team.,Continue hiring for the design team.,False,0.825816,0.714286,True,False,True,unknown,action polarity not confident on both sides
+C,Require two-factor authentication for admins.,Two-factor authentication for admins is optional.,False,0.860413,0.625,True,False,True,unknown,action polarity not confident on both sides
+D,Close office LOC-92 in Dhaka.,Close office LOC-47 in Perth.,False,0.716989,0.5,False,False,False,conflict,different LOC id: ['92'] vs ['47']
+D,Award contract CONT-45 to vendor VND-45 for $775k.,Award contract CONT-60 to vendor VND-60 for $130k.,False,0.880718,0.636364,True,False,False,conflict,different money: [775000.0] vs [130000.0]; different CONT id: ['45'] vs ['60']
+D,Set customer CUST-91 discount to 24% through 8/2025.,Set customer CUST-12 discount to 5% through 1/2024.,False,0.874686,0.428571,True,False,False,conflict,different CUST id: ['91'] vs ['12']
+D,Promote employee EMP-3813 to level L6 on team foxtrot.,Promote employee EMP-102 to level L2 on team alpha.,False,0.847455,0.538462,True,False,False,conflict,different EMP id: ['3813'] vs ['102']
+D,Cap wallet WAL-4026 spend at $52/day.,Cap wallet WAL-88 spend at $900/day.,False,0.851506,0.6,True,False,False,conflict,different money: [52.0] vs [900.0]; different WAL id: ['4026'] vs ['88']
+D,Schedule maintenance WIN-760 on host HST-760 at 16:00 UTC.,Schedule maintenance WIN-12 on host HST-12 at 02:00 UTC.,False,0.913033,0.692308,True,False,False,conflict,different time: ['16:00'] vs ['02:00']; different WIN id: ['760'] vs ['12']
+D,Buy domain DOM-3779.example for campaign CMP-3779.,Buy domain DOM-15.example for campaign CMP-15.,False,0.916913,0.777778,True,False,False,conflict,different CMP id: ['3779'] vs ['15']
+D,Ship hotfix HF-42 for bug BUG-42 tonight.,Ship hotfix HF-99 for bug BUG-99 tonight.,False,0.969172,0.75,True,False,False,conflict,different HF id: ['42'] vs ['99']
+D,Reject RFC RFC-41 about feature FEAT-41.,Reject RFC RFC-900 about feature FEAT-900.,False,0.934643,0.714286,True,False,False,conflict,different RFC id: ['41'] vs ['900']
+D,Grant role ROLE-8 to service account SA-8 only.,Grant role ROLE-77 to service account SA-77 only.,False,0.935817,0.777778,True,False,False,conflict,different SA id: ['8'] vs ['77']
+D,Close office LOC-1 in Lisbon effective 1/2.,Close office LOC-2 in Oslo effective 6/15.,False,0.815963,0.545455,True,False,False,conflict,different calendar date: ['1/2'] vs ['6/15']; different LOC id: ['1'] vs ['2']
+D,Raise the price of plan BASIC by $5.,Raise the price of plan ENTERPRISE by $50.,False,0.817907,0.6,True,False,False,conflict,different money: [5.0] vs [50.0]; different plan: ['basic'] vs ['enterprise']
+D,Hire 2 backend engineers in Q1.,Hire 8 frontend engineers in Q4.,False,0.833835,0.333333,True,False,False,conflict,different quarter: ['1'] vs ['4']
+D,Set the SLA for P1 tickets to 1 hour.,Set the SLA for P3 tickets to 3 days.,False,0.859279,0.5,True,False,False,conflict,different duration: [1.0] vs [72.0]
+D,Route region REG-1 traffic to cluster CLS-1.,Route region REG-9 traffic to cluster CLS-9.,False,0.924946,0.777778,True,False,False,conflict,different REG id: ['1'] vs ['9']
+D,Archive channel CH-10 and move history to vault VT-10.,Archive channel CH-88 and move history to vault VT-88.,False,0.913503,0.818182,True,False,False,conflict,different CH id: ['10'] vs ['88']
+D,Invoice customer CUST-3 for $1200 in March.,Invoice customer CUST-40 for $80 in November.,False,0.852492,0.454545,True,False,False,conflict,different money: [1200.0] vs [80.0]; different month: [3] vs [11]; different CUST id: ['3'] vs ['40']
+D,Rotate API key KEY-1 every 30 days.,Rotate API key KEY-9 every 365 days.,False,0.938846,0.555556,True,False,False,conflict,different duration: [720.0] vs [8760.0]; different KEY id: ['1'] vs ['9']
+D,Block IP range 10.0.1.0/24 after incident INC-1.,Block IP range 10.9.9.0/24 after incident INC-9.,False,0.969092,0.818182,True,False,False,conflict,different INC id: ['1'] vs ['9']
+D,Rename project PRJ-65 to codename onyx65.,Rename project PRJ-2 to codename cedar2.,False,0.888869,0.555556,True,False,False,conflict,different PRJ id: ['65'] vs ['2']
+D,The launch date is Friday March 1.,The launch date is Monday June 20.,False,0.821554,0.4,True,False,False,conflict,different weekday: ['friday'] vs ['monday']
+D,Discount for CUST-1 is 10 percent.,Discount for CUST-2 is 40 percent.,False,0.822482,0.555556,True,False,False,conflict,different percent: [10.0] vs [40.0]; different CUST id: ['1'] vs ['2']
+D,Office in Austin closes on May 1.,Office in Pune closes on December 12.,False,0.696833,0.4,False,False,False,conflict,different month: [5] vs [12]; different place: ['austin'] vs ['pune']
+D,Budget for campaign CMP-3 is $10k.,Budget for campaign CMP-8 is $500k.,False,0.829403,0.555556,True,False,False,conflict,different money: [10000.0] vs [500000.0]; different CMP id: ['3'] vs ['8']
+E,Migrate the database to PostgreSQL.,Increase PostgreSQL database storage.,False,0.751323,0.285714,True,True,True,unknown,action polarity not confident on both sides
+E,Use PostgreSQL as our primary database.,Add a read replica for PostgreSQL.,False,0.723795,0.090909,False,False,False,unknown,action polarity not confident on both sides
+E,Hire two backend engineers this quarter.,Hire two designers this quarter.,False,0.874412,0.571429,True,False,True,no_conflict,no confident conflict
+E,Raise prices by 10% starting next quarter.,Offer a 10% discount next quarter.,False,0.869135,0.3,True,True,True,unknown,opposite actions but the subject overlap is too small
+E,Remote work is allowed three days per week.,Office snacks will be restocked three days per week.,False,0.734724,0.307692,False,False,False,unknown,action polarity not confident on both sides
+E,Deprecate the legacy API by end of year.,Document the legacy API by end of year.,False,0.868174,0.777778,True,False,True,unknown,action polarity not confident on both sides
+E,Ship the product on Friday.,Announce the product on Friday.,False,0.892594,0.666667,True,False,True,unknown,action polarity not confident on both sides
+E,Require MFA for admin accounts.,Require MFA training for admin accounts.,False,0.934803,0.833333,True,False,True,no_conflict,no confident conflict
+E,Block public S3 buckets.,Audit public S3 buckets.,False,0.819271,0.6,True,False,True,unknown,action polarity not confident on both sides
+E,Move CI to GitHub Actions.,Add a GitHub Actions badge to the README.,False,0.766015,0.3,True,True,True,unknown,action polarity not confident on both sides
+E,Keep logs for 90 days.,Export logs to the data warehouse.,False,0.661734,0.1,False,False,False,unknown,action polarity not confident on both sides
+E,Sunset the old billing API.,Add a new field to the billing API.,False,0.72271,0.3,False,False,False,unknown,action polarity not confident on both sides
+E,Approve headcount for two backend engineers.,Approve laptops for two backend engineers.,False,0.835526,0.714286,True,False,True,no_conflict,no confident conflict
+E,Standardize on PostgreSQL.,Upgrade PostgreSQL to the next minor version.,False,0.784993,0.111111,True,True,True,unknown,action polarity not confident on both sides
+E,Three days remote each week.,Three days of on-call each week.,False,0.854007,0.5,True,False,True,unknown,action polarity not confident on both sides
+E,Launch on Friday.,Run a load test on Friday.,False,0.801819,0.285714,True,True,True,unknown,action polarity not confident on both sides
+E,Increase prices 10 percent.,Increase support staffing 10 percent.,False,0.803724,0.5,True,False,True,no_conflict,no confident conflict
+E,Close the Dhaka office.,Renovate the Dhaka office.,False,0.808594,0.6,True,False,True,unknown,action polarity not confident on both sides
+E,Cancel the Acme contract.,Renegotiate the Acme contract.,False,0.850725,0.6,True,False,True,unknown,action polarity not confident on both sides
+E,Enable dark mode.,Fix the dark mode contrast bug.,False,0.825777,0.285714,True,True,True,unknown,action polarity not confident on both sides

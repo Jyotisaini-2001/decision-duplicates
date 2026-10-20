@@ -1,0 +1,224 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "embedder": "fastembed",
+  "dim": 384,
+  "cosine_threshold": 0.75,
+  "jaccard_cutoff": 0.32,
+  "normalization": "L2, same as DecisionStore.load_all; cosine = dot product",
+  "jaccard": "find_duplicates.jaccard_sim on find_duplicates.tokens",
+  "primary_pairs": 116,
+  "ambiguous_pairs_excluded": 4,
+  "category_counts": {
+    "A": 28,
+    "B": 24,
+    "C": 20,
+    "D": 24,
+    "E": 20
+  },
+  "positive_pairs": 52,
+  "negative_pairs": 64,
+  "semantic_only": {
+    "tp": 50,
+    "fp": 57,
+    "tn": 7,
+    "fn": 2,
+    "precision": 0.4673,
+    "recall": 0.9615,
+    "f1": 0.6289,
+    "n": 116
+  },
+  "semantic_plus_jaccard": {
+    "tp": 30,
+    "fp": 6,
+    "tn": 58,
+    "fn": 22,
+    "precision": 0.8333,
+    "recall": 0.5769,
+    "f1": 0.6818,
+    "n": 116
+  },
+  "by_category": {
+    "A": {
+      "semantic_only": {
+        "tp": 26,
+        "fp": 0,
+        "tn": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963,
+        "n": 28
+      },
+      "semantic_plus_jaccard": {
+        "tp": 24,
+        "fp": 0,
+        "tn": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.8571,
+        "f1": 0.9231,
+        "n": 28
+      }
+    },
+    "B": {
+      "semantic_only": {
+        "tp": 24,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 24
+      },
+      "semantic_plus_jaccard": {
+        "tp": 6,
+        "fp": 0,
+        "tn": 0,
+        "fn": 18,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "n": 24
+      }
+    },
+    "C": {
+      "semantic_only": {
+        "tp": 0,
+        "fp": 19,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      },
+      "semantic_plus_jaccard": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 20,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      }
+    },
+    "D": {
+      "semantic_only": {
+        "tp": 0,
+        "fp": 22,
+        "tn": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 24
+      },
+      "semantic_plus_jaccard": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 24,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 24
+      }
+    },
+    "E": {
+      "semantic_only": {
+        "tp": 0,
+        "fp": 16,
+        "tn": 4,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      },
+      "semantic_plus_jaccard": {
+        "tp": 0,
+        "fp": 6,
+        "tn": 14,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      }
+    }
+  },
+  "semantic_false_positives": 57,
+  "false_positives_removed_by_jaccard": 51,
+  "true_duplicates_rejected_by_jaccard": 20,
+  "false_positives_remaining_after_both": 6,
+  "threshold_sweep": [
+    {
+      "tp": 50,
+      "fp": 57,
+      "tn": 7,
+      "fn": 2,
+      "precision": 0.4673,
+      "recall": 0.9615,
+      "f1": 0.6289,
+      "n": 116,
+      "jaccard_cutoff": "none"
+    },
+    {
+      "tp": 18,
+      "fp": 1,
+      "tn": 63,
+      "fn": 34,
+      "precision": 0.9474,
+      "recall": 0.3462,
+      "f1": 0.507,
+      "n": 116,
+      "jaccard_cutoff": 0.2
+    },
+    {
+      "tp": 23,
+      "fp": 1,
+      "tn": 63,
+      "fn": 29,
+      "precision": 0.9583,
+      "recall": 0.4423,
+      "f1": 0.6053,
+      "n": 116,
+      "jaccard_cutoff": 0.25
+    },
+    {
+      "tp": 30,
+      "fp": 6,
+      "tn": 58,
+      "fn": 22,
+      "precision": 0.8333,
+      "recall": 0.5769,
+      "f1": 0.6818,
+      "n": 116,
+      "jaccard_cutoff": 0.32
+    },
+    {
+      "tp": 33,
+      "fp": 8,
+      "tn": 56,
+      "fn": 19,
+      "precision": 0.8049,
+      "recall": 0.6346,
+      "f1": 0.7097,
+      "n": 116,
+      "jaccard_cutoff": 0.4
+    },
+    {
+      "tp": 38,
+      "fp": 15,
+      "tn": 49,
+      "fn": 14,
+      "precision": 0.717,
+      "recall": 0.7308,
+      "f1": 0.7238,
+      "n": 116,
+      "jaccard_cutoff": 0.55
+    }
+  ]
+}

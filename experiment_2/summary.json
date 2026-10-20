@@ -1,0 +1,244 @@
+{
+  "source": "/Users/jyotisaini/Desktop/learn/decision-duplicates/experiments/pair_scores.csv",
+  "primary_pairs": 116,
+  "note": "Exploratory. Critical-check rules were designed after seeing Experiment 1 error types, so the 116-pair numbers may be biased. Rules were not retuned after this run. Held-out pairs are separate and small.",
+  "overall": {
+    "semantic_only": {
+      "tp": 50,
+      "fp": 57,
+      "tn": 7,
+      "fn": 2,
+      "precision": 0.4673,
+      "recall": 0.9615,
+      "f1": 0.6289,
+      "n": 116
+    },
+    "semantic_plus_jaccard": {
+      "tp": 30,
+      "fp": 6,
+      "tn": 58,
+      "fn": 22,
+      "precision": 0.8333,
+      "recall": 0.5769,
+      "f1": 0.6818,
+      "n": 116
+    },
+    "semantic_plus_critical": {
+      "tp": 50,
+      "fp": 19,
+      "tn": 45,
+      "fn": 2,
+      "precision": 0.7246,
+      "recall": 0.9615,
+      "f1": 0.8264,
+      "n": 116
+    }
+  },
+  "by_category": {
+    "A": {
+      "n": 28,
+      "semantic_only": {
+        "tp": 26,
+        "fp": 0,
+        "tn": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963,
+        "n": 28
+      },
+      "semantic_plus_jaccard": {
+        "tp": 24,
+        "fp": 0,
+        "tn": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.8571,
+        "f1": 0.9231,
+        "n": 28
+      },
+      "semantic_plus_critical": {
+        "tp": 26,
+        "fp": 0,
+        "tn": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963,
+        "n": 28
+      }
+    },
+    "B": {
+      "n": 24,
+      "semantic_only": {
+        "tp": 24,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 24
+      },
+      "semantic_plus_jaccard": {
+        "tp": 6,
+        "fp": 0,
+        "tn": 0,
+        "fn": 18,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "n": 24
+      },
+      "semantic_plus_critical": {
+        "tp": 24,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 24
+      }
+    },
+    "C": {
+      "n": 20,
+      "semantic_only": {
+        "tp": 0,
+        "fp": 19,
+        "tn": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      },
+      "semantic_plus_jaccard": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 20,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      },
+      "semantic_plus_critical": {
+        "tp": 0,
+        "fp": 3,
+        "tn": 17,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      }
+    },
+    "D": {
+      "n": 24,
+      "semantic_only": {
+        "tp": 0,
+        "fp": 22,
+        "tn": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 24
+      },
+      "semantic_plus_jaccard": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 24,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 24
+      },
+      "semantic_plus_critical": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 24,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 24
+      }
+    },
+    "E": {
+      "n": 20,
+      "semantic_only": {
+        "tp": 0,
+        "fp": 16,
+        "tn": 4,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      },
+      "semantic_plus_jaccard": {
+        "tp": 0,
+        "fp": 6,
+        "tn": 14,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      },
+      "semantic_plus_critical": {
+        "tp": 0,
+        "fp": 16,
+        "tn": 4,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "n": 20
+      }
+    }
+  },
+  "semantic_false_positives": 57,
+  "false_positives_removed_by_critical_checks": 38,
+  "genuine_duplicates": 52,
+  "genuine_duplicates_preserved_by_critical_checks": 50,
+  "genuine_duplicates_rejected_by_critical_checks": 2,
+  "genuine_duplicates_recovered_versus_jaccard": 20,
+  "false_positives_still_passing_critical_checks": 19,
+  "held_out_pairs": 14,
+  "held_out": {
+    "semantic_only": {
+      "tp": 4,
+      "fp": 9,
+      "tn": 0,
+      "fn": 1,
+      "precision": 0.3077,
+      "recall": 0.8,
+      "f1": 0.4444,
+      "n": 14
+    },
+    "semantic_plus_jaccard": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 9,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714,
+      "n": 14
+    },
+    "semantic_plus_critical": {
+      "tp": 4,
+      "fp": 3,
+      "tn": 6,
+      "fn": 1,
+      "precision": 0.5714,
+      "recall": 0.8,
+      "f1": 0.6667,
+      "n": 14
+    }
+  }
+}
