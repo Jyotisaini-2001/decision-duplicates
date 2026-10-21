@@ -1,0 +1,56 @@
+DB already up to date (10000 rows) → data/decisions_vec.db
+Loaded 10000 decisions from data/decisions_vec.db
+
+=== Top 10000 semantic duplicate groups ===
+
+#1  score=1.966
+  - [dec_00012] Primary datastore will be Postgres.
+  - [dec_00013] Adopt PostgreSQL as the database of record.
+  - [dec_00010] We're standardizing on PostgreSQL for storage.
+  - [dec_00014] We picked Postgres over MySQL for the database.
+  - [dec_00011] Decision: PostgreSQL for the main DB.
+  - [dec_00008] Use PostgreSQL as our primary database.
+  - [dec_00009] Postgres is the chosen database.
+
+#2  score=1.634
+  - [dec_00004] Agreed: product ships Friday.
+  - [dec_00007] Ship date locked to Friday.
+  - [dec_00003] Friday is the go-live day for the product.
+  - [dec_00000] We decided to ship the product on Friday.
+  - [dec_00002] We're launching this Friday.
+  - [dec_00001] Release date is set for Friday.
+  - [dec_00005] Decision: Friday launch for the product.
+  - [dec_00006] We'll put the product out on Friday.
+
+#3  score=1.520
+  - [dec_00023] Approved a 10 percent price increase for Q+1.
+  - [dec_00026] We'll bump prices ten percent next quarter.
+  - [dec_00022] Next quarter we increase pricing 10%.
+  - [dec_00021] Raise prices by 10% starting next quarter.
+  - [dec_00024] Pricing goes up 10% beginning next quarter.
+  - [dec_00025] Decision: 10% price hike effective next quarter.
+
+#4  score=1.415
+  - [dec_00019] WFH allowance set at 3 days/week.
+  - [dec_00015] Remote work is allowed three days per week.
+  - [dec_00016] Hybrid policy: 3 days WFH each week.
+  - [dec_00017] Employees may work from home three days weekly.
+  - [dec_00020] Three days remote, two in office — that's the policy.
+  - [dec_00018] Approved: three remote days per week.
+
+#5  score=1.336
+  - [dec_00032] Phase out the outdated API by December.
+  - [dec_00029] We're retiring the old API before year-end.
+  - [dec_00030] End-of-year deadline to shut down the legacy API.
+  - [dec_00031] Decision: legacy API gone by year end.
+  - [dec_00028] Legacy API sunset date: December 31.
+  - [dec_00027] Deprecate the legacy API by end of year.
+
+#6  score=1.162
+  - [dec_00037] Recruit two backend developers this quarter.
+  - [dec_00034] Hire two backend engineers this quarter.
+  - [dec_00038] Decision: add two backend engineers ASAP this quarter.
+  - [dec_00036] Approved headcount: 2 backend engineers.
+  - [dec_00035] We're opening two backend eng roles this Q.
+
+Exported results → output/semantic_jaccard_10k.json

@@ -1,0 +1,5 @@
+DB already up to date (200 rows) → data/test_200_v2.db
+Decisions=200 candidates=2622 accepted=86 rejected=2536 uncertain=0 NLI_calls=237 groups=41
+Groups: output/hybrid_nli_200.json
+Pairs: output/hybrid_nli_200_pairs.json
+No ground-truth metrics calculated. Audit labels and sample false positives/negatives.

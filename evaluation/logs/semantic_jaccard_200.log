@@ -1,0 +1,193 @@
+DB already up to date (200 rows) → data/test_200_v2.db
+Loaded 200 decisions from data/test_200_v2.db
+
+=== Top 10000 semantic duplicate groups ===
+
+#1  score=1.890
+  - [dec_00026] Retire the legacy billing API by December.
+  - [dec_00027] Sunset the old billing API before year-end.
+  - [dec_00028] Keep the legacy billing API running through December.
+  - [dec_00029] Document the legacy billing API by December.
+  - [dec_00030] The legacy billing API will be retired by December.
+  - [dec_00061] Switch customer billing from monthly to annual.
+  - [dec_00062] Invoice customers yearly instead of monthly.
+  - [dec_00063] Keep customer billing monthly.
+  - [dec_00064] Send monthly billing reminders to customers.
+  - [dec_00065] Customer billing will move from monthly to annual.
+  - [dec_00081] Launch the billing redesign in March.
+  - [dec_00082] Release the updated billing experience during March.
+  - [dec_00083] Postpone the billing redesign until June.
+  - [dec_00084] Run a load test on the billing redesign in March.
+  - [dec_00085] The billing redesign will launch in March.
+
+#2  score=1.887
+  - [dec_00001] We approved the migration to PostgreSQL.
+  - [dec_00002] The migration to PostgreSQL was approved.
+  - [dec_00004] We will migrate the database to PostgreSQL next quarter.
+  - [dec_00005] Increase PostgreSQL database storage next quarter.
+  - [dec_00016] Raise subscription prices by 10% next quarter.
+  - [dec_00017] A ten percent subscription price increase starts next quarter.
+  - [dec_00018] Do not raise subscription prices by 10% next quarter.
+  - [dec_00019] Offer a 10% subscription discount next quarter.
+  - [dec_00020] Increase subscription pricing ten percent next quarter.
+  - [dec_00091] Use PostgreSQL as the primary datastore.
+  - [dec_00092] Postgres will be our system of record.
+  - [dec_00094] Add a PostgreSQL read replica.
+  - [dec_00095] The primary datastore will be PostgreSQL.
+  - [dec_00114] Set customer CUST-91 discount to 5% through August 2025.
+
+#3  score=1.581
+  - [dec_00011] Hire two backend engineers this quarter.
+  - [dec_00012] Recruit 2 backend developers this quarter.
+  - [dec_00013] Hire eight backend engineers this quarter.
+  - [dec_00014] Hire two frontend engineers this quarter.
+  - [dec_00015] Two backend engineering positions were approved for this quarter.
+  - [dec_00076] Approve a hiring freeze for the design team.
+  - [dec_00077] Stop recruiting designers until further notice.
+  - [dec_00078] Continue hiring for the design team.
+
+#4  score=1.493
+  - [dec_00066] Require MFA for administrator accounts.
+  - [dec_00067] Admin users must authenticate with a second factor.
+  - [dec_00070] Multi-factor authentication is mandatory for admins.
+
+#5  score=1.429
+  - [dec_00036] Rotate production API keys every 30 days.
+  - [dec_00037] Production API credentials must rotate monthly.
+  - [dec_00038] Rotate production API keys every 90 days.
+  - [dec_00039] Audit production API keys every 30 days.
+  - [dec_00040] Production API keys will be rotated every thirty days.
+  - [dec_00041] Keep audit logs for 90 days.
+  - [dec_00042] Audit log retention is set to three months.
+  - [dec_00043] Keep audit logs for 30 days.
+  - [dec_00045] Audit logs will be retained for ninety days.
+
+#6  score=1.240
+  - [dec_00031] Allow employees three remote days per week.
+  - [dec_00032] The hybrid policy permits 3 work-from-home days weekly.
+  - [dec_00034] Require three in-office days per week.
+  - [dec_00035] Employees may work remotely three days each week.
+
+#7  score=1.068
+  - [dec_00071] Move continuous integration to GitHub Actions.
+  - [dec_00072] CI pipelines will migrate to GitHub Actions.
+  - [dec_00073] Keep CI pipelines on Jenkins.
+  - [dec_00075] We decided to migrate CI to GitHub Actions.
+
+#8  score=0.982
+  - [dec_00047] Public S3 buckets must be blocked.
+  - [dec_00049] Audit S3 buckets for public access.
+  - [dec_00050] We decided to block public S3 bucket access.
+
+#9  score=0.965
+  - [dec_00186] Turn on fraud alerts for transactions above $5,000.
+  - [dec_00187] Enable transaction fraud notifications over five thousand dollars.
+  - [dec_00188] Turn off fraud alerts for transactions above $5,000.
+  - [dec_00189] Turn on fraud alerts for transactions above $500.
+  - [dec_00190] Fraud alerts will be enabled for transactions over $5,000.
+
+#10  score=0.946
+  - [dec_00191] Restrict data exports to EU-hosted storage.
+  - [dec_00192] Exported data must remain in European Union storage.
+  - [dec_00193] Allow data exports to US-hosted storage.
+  - [dec_00194] Encrypt data exports in EU-hosted storage.
+  - [dec_00195] Data exports will be limited to EU storage locations.
+
+#11  score=0.916
+  - [dec_00162] Project PRJ-65 will be called onyx65.
+  - [dec_00163] Rename project PRJ-2 to codename onyx65.
+  - [dec_00164] Rename project PRJ-65 to codename cedar65.
+  - [dec_00165] The new codename for PRJ-65 is onyx65.
+
+#12  score=0.914
+  - [dec_00171] Pay invoice INV-14 for $2,000.
+  - [dec_00172] Authorize payment of two thousand dollars for INV-14.
+  - [dec_00173] Pay invoice INV-14 for $9,000.
+  - [dec_00174] Pay invoice INV-15 for $2,000.
+  - [dec_00175] Invoice INV-14 will be paid in the amount of $2,000.
+
+#13  score=0.890
+  - [dec_00096] Archive inactive support tickets after 60 days.
+  - [dec_00097] Close dormant support cases after two months.
+
+#14  score=0.863
+  - [dec_00007] Dark mode will be enabled for the dashboard.
+  - [dec_00009] Fix the dark mode contrast bug.
+  - [dec_00010] We approved enabling dark mode on the dashboard.
+
+#15  score=0.861
+  - [dec_00157] Squad SQ-313 has a target of 30 on KPI-313.
+  - [dec_00160] The KPI-313 target for SQ-313 is set at thirty.
+
+#16  score=0.849
+  - [dec_00176] Set campaign CMP-3 budget to $10k.
+  - [dec_00177] Campaign CMP-3 receives a ten-thousand-dollar budget.
+  - [dec_00178] Set campaign CMP-3 budget to $500k.
+  - [dec_00179] Set campaign CMP-8 budget to $10k.
+  - [dec_00180] The budget for CMP-3 is $10,000.
+
+#17  score=0.828
+  - [dec_00086] Set priority-one incident SLA to one hour.
+  - [dec_00088] Set priority-one incident SLA to three hours.
+  - [dec_00089] Audit priority-one SLA compliance hourly.
+  - [dec_00090] The P1 incident SLA is one hour.
+
+#18  score=0.819
+  - [dec_00146] Reject RFC-41 about feature FEAT-41.
+  - [dec_00147] The proposal RFC-41 for FEAT-41 was declined.
+  - [dec_00148] Approve RFC-41 about feature FEAT-41.
+  - [dec_00149] Reject RFC-900 about feature FEAT-900.
+  - [dec_00150] RFC-41 for FEAT-41 has been rejected.
+
+#19  score=0.794
+  - [dec_00056] Cancel the Acme vendor contract.
+  - [dec_00057] Do not renew our agreement with Acme.
+  - [dec_00058] Renew the Acme vendor contract.
+  - [dec_00059] Renegotiate the Acme vendor contract.
+  - [dec_00060] The Acme vendor contract will be cancelled.
+
+#20  score=0.793
+  - [dec_00022] The mobile application goes live Friday.
+  - [dec_00025] The mobile app will be shipped on Friday.
+
+#21  score=0.780
+  - [dec_00101] Cap wallet WAL-4026 spend at $52/day.
+  - [dec_00102] Set a daily $52 spending limit for wallet WAL-4026.
+  - [dec_00103] Cap wallet WAL-4026 spend at $900/day.
+  - [dec_00104] Cap wallet WAL-88 spend at $52/day.
+  - [dec_00105] Wallet WAL-4026 must not exceed $52 per day.
+
+#22  score=0.767
+  - [dec_00196] Decommission server SRV-18 after the migration.
+  - [dec_00197] Retire host SRV-18 once migration finishes.
+  - [dec_00198] Keep server SRV-18 running after the migration.
+  - [dec_00199] Decommission server SRV-81 after the migration.
+  - [dec_00200] Server SRV-18 will be decommissioned after migration.
+
+#23  score=0.765
+  - [dec_00122] Vendor VND-45 wins contract CONT-45 worth $775,000.
+  - [dec_00123] Award contract CONT-60 to vendor VND-60 for $775k.
+  - [dec_00125] Contract CONT-45 for $775k was awarded to VND-45.
+
+#24  score=0.741
+  - [dec_00107] Deploy hotfix HF-42 addressing BUG-42 this evening.
+  - [dec_00108] Ship hotfix HF-99 for bug BUG-99 tonight.
+  - [dec_00110] Hotfix HF-42 for BUG-42 goes to production tonight.
+
+#25  score=0.721
+  - [dec_00138] Promote employee EMP-102 to level L6.
+  - [dec_00139] Promote employee EMP-3813 to level L2.
+  - [dec_00140] EMP-3813 was approved for promotion to L6.
+
+#26  score=0.586
+  - [dec_00181] Deploy service checkout-api to staging on Tuesday.
+  - [dec_00182] The checkout-api staging deployment is scheduled for Tuesday.
+  - [dec_00183] Deploy service checkout-api to production on Tuesday.
+  - [dec_00184] Deploy service inventory-api to staging on Tuesday.
+
+#27  score=0.436
+  - [dec_00151] Block IP range 10.0.1.0/24 after incident INC-1.
+  - [dec_00153] Block IP range 10.9.9.0/24 after incident INC-1.
+  - [dec_00155] Following INC-1, the 10.0.1.0/24 subnet will be blocked.
+
+Exported results → output/semantic_jaccard_200.json

@@ -1,51 +1,72 @@
-# Decision duplicates
+# How to run
 
-## 1) Generate demo decisions and run
-
-```bash
-cd ~/Desktop/learn/decision-duplicates
-source .venv/bin/activate
-
-# any number, e.g. 100 / 1000 / 10000
-python generate_data.py --count 10000
-
-# rebuild DB from that JSON and find top duplicates
-rm -f data/decisions_vec.db
-python find_duplicates.py --reingest
-```
-
-Results: `output/top_duplicates.json`
-
-## 2) Run with your own JSON
-
-Your file must be a JSON array like:
-
-```json
-[
-  { "id": "dec_001", "text": "We will ship on Friday." },
-  { "id": "dec_002", "text": "Launch date is Friday." }
-]
-```
+From this folder:
 
 ```bash
-cd ~/Desktop/learn/decision-duplicates
 source .venv/bin/activate
-
-python find_duplicates.py --input /path/to/your.json --reingest
 ```
 
-Results: `output/top_duplicates.json`
-
-## 3) Prove why threshold=0.75 and max-lexical-overlap=0.32
-
-Needs demo JSON with `planted_group` (from `generate_data.py`):
+If the environment is not set up yet:
 
 ```bash
-cd ~/Desktop/learn/decision-duplicates
+python3.12 -m venv .venv
 source .venv/bin/activate
-
-python generate_data.py --count 100
-python prove_thresholds.py
+pip install -r requirements.txt
 ```
 
-This prints cosine scores for known paraphrases (why 0.75) and word-overlap for paraphrases vs templates (why 0.32).
+Data files:
+
+- 200 decisions: `data/experiment_decision_dataset_200.json`
+- 10,000 decisions: `data/experiment_decision_dataset_10k.json`
+
+## Semantic + Jaccard
+
+200 decisions:
+
+```bash
+python find_duplicates_1.py \
+  --input data/experiment_decision_dataset_200.json \
+  --db data/test_200_v2.db \
+  --output output/semantic_jaccard_200.json \
+  --top 10000
+```
+
+10,000 decisions:
+
+```bash
+python find_duplicates_1.py \
+  --input data/experiment_decision_dataset_10k.json \
+  --db data/decisions_vec.db \
+  --output output/semantic_jaccard_10k.json \
+  --top 10000
+```
+
+## Hybrid + NLI
+
+200 decisions:
+
+```bash
+python find_duplicates_2.py \
+  --input data/experiment_decision_dataset_200.json \
+  --db data/test_200_v2.db \
+  --method hybrid \
+  --verifier nli \
+  --nli-threshold 0.70 \
+  --top 10000 \
+  --output output/hybrid_nli_200.json
+```
+
+10,000 decisions:
+
+```bash
+python find_duplicates_2.py \
+  --input data/experiment_decision_dataset_10k.json \
+  --db data/decisions_vec.db \
+  --method hybrid \
+  --verifier nli \
+  --nli-threshold 0.70 \
+  --top 10000 \
+  --output output/hybrid_nli_10k.json
+```
+
+The first Hybrid + NLI run downloads the NLI model. Results are written in `output/`.

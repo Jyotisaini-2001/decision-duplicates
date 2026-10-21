@@ -3,7 +3,7 @@ Proof script: how we chose threshold=0.75 and max_lexical_overlap=0.32.
 
 Run:
   python prove_thresholds.py
-  python prove_thresholds.py --input data/decisions.json
+  python prove_thresholds.py --input data/experiment_decision_dataset_10k.json
 """
 
 from __future__ import annotations
@@ -35,7 +35,7 @@ def jaccard(a: set[str], b: set[str]) -> float:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", type=Path, default=ROOT / "data" / "decisions.json")
+    parser.add_argument("--input", type=Path, default=ROOT / "data" / "experiment_decision_dataset_10k.json")
     args = parser.parse_args()
 
     data = json.loads(args.input.read_text(encoding="utf-8"))

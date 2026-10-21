@@ -7,7 +7,7 @@ import json
 import random
 from pathlib import Path
 
-OUT = Path(__file__).parent / "data" / "decisions.json"
+OUT = Path(__file__).parent / "data" / "experiment_decision_dataset_10k.json"
 RNG = random.Random(42)
 
 # Planted groups: same meaning, different wording. These should surface in top-5.

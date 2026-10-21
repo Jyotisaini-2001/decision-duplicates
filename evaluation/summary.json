@@ -1,0 +1,107 @@
+{
+  "times": {
+    "semantic_jaccard_200": "0.8 seconds",
+    "semantic_jaccard_10k": "4.1 seconds",
+    "hybrid_nli_200": "19.9 seconds",
+    "hybrid_nli_10k": "33.8 seconds"
+  },
+  "jaccard_200_retrieved": 6584,
+  "jaccard_200_accepted": 136,
+  "jaccard_10k_retrieved": 341724,
+  "jaccard_10k_accepted": 84,
+  "nli_200_candidates": 2622,
+  "nli_200_accepted": 86,
+  "nli_10k_candidates": 159144,
+  "nli_10k_accepted": 55,
+  "nli_200_calls": 237,
+  "nli_10k_calls": 89,
+  "groups": {
+    "j200": 27,
+    "j10": 6,
+    "n200": 41,
+    "n10": 8
+  },
+  "family_counts": {
+    "j200": {
+      "complete": 20,
+      "partial": 12,
+      "missed": 8
+    },
+    "n200": {
+      "partial": 23,
+      "complete": 16,
+      "missed": 1
+    },
+    "j10": {
+      "complete": 5,
+      "partial": 1
+    },
+    "n10": {
+      "split": 2,
+      "partial": 4
+    }
+  },
+  "edge_class": {
+    "jaccard": {
+      "within_family": 84,
+      "cross_family": 0,
+      "planted_with_unlabeled": 0,
+      "unlabeled_only": 0
+    },
+    "nli": {
+      "within_family": 55,
+      "cross_family": 0,
+      "planted_with_unlabeled": 0,
+      "unlabeled_only": 0
+    }
+  },
+  "pair": {
+    "jaccard_200": {
+      "tp": 47,
+      "fp": 60,
+      "tn": 217,
+      "fn": 73,
+      "precision": 0.4392523364485981,
+      "recall": 0.39166666666666666,
+      "f1": 0.41409691629955947,
+      "evaluated_pairs": 397,
+      "positive_labels": 120
+    },
+    "nli_200": {
+      "tp": 77,
+      "fp": 9,
+      "tn": 268,
+      "fn": 43,
+      "precision": 0.8953488372093024,
+      "recall": 0.6416666666666667,
+      "f1": 0.7475728155339806,
+      "evaluated_pairs": 397,
+      "positive_labels": 120
+    },
+    "jaccard_10k_planted_recall_only": {
+      "tp": 84,
+      "fp": 0,
+      "tn": 0,
+      "fn": 26,
+      "precision": 1.0,
+      "recall": 0.7636363636363637,
+      "f1": 0.865979381443299,
+      "evaluated_pairs": 110,
+      "positive_labels": 110
+    },
+    "nli_10k_planted_recall_only": {
+      "tp": 55,
+      "fp": 0,
+      "tn": 0,
+      "fn": 55,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "evaluated_pairs": 110,
+      "positive_labels": 110
+    }
+  },
+  "discrepancy": [],
+  "planted_decisions": 39,
+  "planted_pairs": 110
+}

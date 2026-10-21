@@ -1,0 +1,5 @@
+DB already up to date (10000 rows) → data/decisions_vec.db
+Decisions=10000 candidates=159144 accepted=55 rejected=159089 uncertain=0 NLI_calls=89 groups=8
+Groups: output/hybrid_nli_10k.json
+Pairs: output/hybrid_nli_10k_pairs.json
+No ground-truth metrics calculated. Audit labels and sample false positives/negatives.

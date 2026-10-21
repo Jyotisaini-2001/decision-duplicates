@@ -1,0 +1,192 @@
+{
+  "top_duplicate_groups": [
+    {
+      "rank": 1,
+      "score": 1.9663,
+      "variants": [
+        {
+          "id": "dec_00012",
+          "text": "Primary datastore will be Postgres."
+        },
+        {
+          "id": "dec_00013",
+          "text": "Adopt PostgreSQL as the database of record."
+        },
+        {
+          "id": "dec_00010",
+          "text": "We're standardizing on PostgreSQL for storage."
+        },
+        {
+          "id": "dec_00014",
+          "text": "We picked Postgres over MySQL for the database."
+        },
+        {
+          "id": "dec_00011",
+          "text": "Decision: PostgreSQL for the main DB."
+        },
+        {
+          "id": "dec_00008",
+          "text": "Use PostgreSQL as our primary database."
+        },
+        {
+          "id": "dec_00009",
+          "text": "Postgres is the chosen database."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "score": 1.6338,
+      "variants": [
+        {
+          "id": "dec_00004",
+          "text": "Agreed: product ships Friday."
+        },
+        {
+          "id": "dec_00007",
+          "text": "Ship date locked to Friday."
+        },
+        {
+          "id": "dec_00003",
+          "text": "Friday is the go-live day for the product."
+        },
+        {
+          "id": "dec_00000",
+          "text": "We decided to ship the product on Friday."
+        },
+        {
+          "id": "dec_00002",
+          "text": "We're launching this Friday."
+        },
+        {
+          "id": "dec_00001",
+          "text": "Release date is set for Friday."
+        },
+        {
+          "id": "dec_00005",
+          "text": "Decision: Friday launch for the product."
+        },
+        {
+          "id": "dec_00006",
+          "text": "We'll put the product out on Friday."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "score": 1.5195,
+      "variants": [
+        {
+          "id": "dec_00023",
+          "text": "Approved a 10 percent price increase for Q+1."
+        },
+        {
+          "id": "dec_00026",
+          "text": "We'll bump prices ten percent next quarter."
+        },
+        {
+          "id": "dec_00022",
+          "text": "Next quarter we increase pricing 10%."
+        },
+        {
+          "id": "dec_00021",
+          "text": "Raise prices by 10% starting next quarter."
+        },
+        {
+          "id": "dec_00024",
+          "text": "Pricing goes up 10% beginning next quarter."
+        },
+        {
+          "id": "dec_00025",
+          "text": "Decision: 10% price hike effective next quarter."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "score": 1.4152,
+      "variants": [
+        {
+          "id": "dec_00019",
+          "text": "WFH allowance set at 3 days/week."
+        },
+        {
+          "id": "dec_00015",
+          "text": "Remote work is allowed three days per week."
+        },
+        {
+          "id": "dec_00016",
+          "text": "Hybrid policy: 3 days WFH each week."
+        },
+        {
+          "id": "dec_00017",
+          "text": "Employees may work from home three days weekly."
+        },
+        {
+          "id": "dec_00020",
+          "text": "Three days remote, two in office — that's the policy."
+        },
+        {
+          "id": "dec_00018",
+          "text": "Approved: three remote days per week."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "score": 1.3361,
+      "variants": [
+        {
+          "id": "dec_00032",
+          "text": "Phase out the outdated API by December."
+        },
+        {
+          "id": "dec_00029",
+          "text": "We're retiring the old API before year-end."
+        },
+        {
+          "id": "dec_00030",
+          "text": "End-of-year deadline to shut down the legacy API."
+        },
+        {
+          "id": "dec_00031",
+          "text": "Decision: legacy API gone by year end."
+        },
+        {
+          "id": "dec_00028",
+          "text": "Legacy API sunset date: December 31."
+        },
+        {
+          "id": "dec_00027",
+          "text": "Deprecate the legacy API by end of year."
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "score": 1.162,
+      "variants": [
+        {
+          "id": "dec_00037",
+          "text": "Recruit two backend developers this quarter."
+        },
+        {
+          "id": "dec_00034",
+          "text": "Hire two backend engineers this quarter."
+        },
+        {
+          "id": "dec_00038",
+          "text": "Decision: add two backend engineers ASAP this quarter."
+        },
+        {
+          "id": "dec_00036",
+          "text": "Approved headcount: 2 backend engineers."
+        },
+        {
+          "id": "dec_00035",
+          "text": "We're opening two backend eng roles this Q."
+        }
+      ]
+    }
+  ]
+}

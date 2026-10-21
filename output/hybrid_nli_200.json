@@ -1,0 +1,646 @@
+{
+  "top_duplicate_groups": [
+    {
+      "rank": 1,
+      "score": 0.9808,
+      "variants": [
+        {
+          "id": "dec_00001",
+          "text": "We approved the migration to PostgreSQL."
+        },
+        {
+          "id": "dec_00002",
+          "text": "The migration to PostgreSQL was approved."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "score": 0.9561,
+      "variants": [
+        {
+          "id": "dec_00171",
+          "text": "Pay invoice INV-14 for $2,000."
+        },
+        {
+          "id": "dec_00175",
+          "text": "Invoice INV-14 will be paid in the amount of $2,000."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "score": 0.9486,
+      "variants": [
+        {
+          "id": "dec_00121",
+          "text": "Award contract CONT-45 to vendor VND-45 for $775k."
+        },
+        {
+          "id": "dec_00122",
+          "text": "Vendor VND-45 wins contract CONT-45 worth $775,000."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "score": 0.9392,
+      "variants": [
+        {
+          "id": "dec_00111",
+          "text": "Set customer CUST-91 discount to 24% through August 2025."
+        },
+        {
+          "id": "dec_00112",
+          "text": "Customer CUST-91 receives a 24 percent discount until August 2025."
+        },
+        {
+          "id": "dec_00115",
+          "text": "Apply a 24% discount to CUST-91 through August 2025."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "score": 0.9334,
+      "variants": [
+        {
+          "id": "dec_00131",
+          "text": "Buy domain DOM-3779.example for campaign CMP-3779."
+        },
+        {
+          "id": "dec_00135",
+          "text": "Campaign CMP-3779 will acquire domain DOM-3779.example."
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "score": 0.9307,
+      "variants": [
+        {
+          "id": "dec_00116",
+          "text": "Schedule maintenance WIN-760 on host HST-760 at 16:00 UTC."
+        },
+        {
+          "id": "dec_00117",
+          "text": "Maintenance window WIN-760 for HST-760 starts at 16:00 UTC."
+        },
+        {
+          "id": "dec_00120",
+          "text": "Host HST-760 maintenance WIN-760 is booked for 16:00 UTC."
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "score": 0.9307,
+      "variants": [
+        {
+          "id": "dec_00006",
+          "text": "Enable dark mode for the dashboard."
+        },
+        {
+          "id": "dec_00007",
+          "text": "Dark mode will be enabled for the dashboard."
+        },
+        {
+          "id": "dec_00010",
+          "text": "We approved enabling dark mode on the dashboard."
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "score": 0.9302,
+      "variants": [
+        {
+          "id": "dec_00031",
+          "text": "Allow employees three remote days per week."
+        },
+        {
+          "id": "dec_00035",
+          "text": "Employees may work remotely three days each week."
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "score": 0.9297,
+      "variants": [
+        {
+          "id": "dec_00017",
+          "text": "A ten percent subscription price increase starts next quarter."
+        },
+        {
+          "id": "dec_00020",
+          "text": "Increase subscription pricing ten percent next quarter."
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "score": 0.927,
+      "variants": [
+        {
+          "id": "dec_00141",
+          "text": "Archive channel CH-10 to vault VT-10."
+        },
+        {
+          "id": "dec_00145",
+          "text": "Channel CH-10 will be archived in vault VT-10."
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "score": 0.9269,
+      "variants": [
+        {
+          "id": "dec_00011",
+          "text": "Hire two backend engineers this quarter."
+        },
+        {
+          "id": "dec_00012",
+          "text": "Recruit 2 backend developers this quarter."
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "score": 0.9222,
+      "variants": [
+        {
+          "id": "dec_00046",
+          "text": "Block public access to S3 buckets."
+        },
+        {
+          "id": "dec_00047",
+          "text": "Public S3 buckets must be blocked."
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "score": 0.9157,
+      "variants": [
+        {
+          "id": "dec_00186",
+          "text": "Turn on fraud alerts for transactions above $5,000."
+        },
+        {
+          "id": "dec_00187",
+          "text": "Enable transaction fraud notifications over five thousand dollars."
+        },
+        {
+          "id": "dec_00190",
+          "text": "Fraud alerts will be enabled for transactions over $5,000."
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "score": 0.915,
+      "variants": [
+        {
+          "id": "dec_00041",
+          "text": "Keep audit logs for 90 days."
+        },
+        {
+          "id": "dec_00045",
+          "text": "Audit logs will be retained for ninety days."
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "score": 0.9014,
+      "variants": [
+        {
+          "id": "dec_00126",
+          "text": "Grant role ROLE-8 to service account SA-8."
+        },
+        {
+          "id": "dec_00127",
+          "text": "Service account SA-8 is assigned ROLE-8."
+        },
+        {
+          "id": "dec_00130",
+          "text": "ROLE-8 will be granted to service account SA-8."
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "score": 0.8996,
+      "variants": [
+        {
+          "id": "dec_00056",
+          "text": "Cancel the Acme vendor contract."
+        },
+        {
+          "id": "dec_00060",
+          "text": "The Acme vendor contract will be cancelled."
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "score": 0.8976,
+      "variants": [
+        {
+          "id": "dec_00146",
+          "text": "Reject RFC-41 about feature FEAT-41."
+        },
+        {
+          "id": "dec_00150",
+          "text": "RFC-41 for FEAT-41 has been rejected."
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "score": 0.8963,
+      "variants": [
+        {
+          "id": "dec_00101",
+          "text": "Cap wallet WAL-4026 spend at $52/day."
+        },
+        {
+          "id": "dec_00102",
+          "text": "Set a daily $52 spending limit for wallet WAL-4026."
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "score": 0.8877,
+      "variants": [
+        {
+          "id": "dec_00051",
+          "text": "Close the Dhaka office on May 1."
+        },
+        {
+          "id": "dec_00052",
+          "text": "The Dhaka location will shut down May 1."
+        },
+        {
+          "id": "dec_00055",
+          "text": "The Dhaka office will be closed on May 1."
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "score": 0.885,
+      "variants": [
+        {
+          "id": "dec_00181",
+          "text": "Deploy service checkout-api to staging on Tuesday."
+        },
+        {
+          "id": "dec_00182",
+          "text": "The checkout-api staging deployment is scheduled for Tuesday."
+        },
+        {
+          "id": "dec_00185",
+          "text": "Checkout-api will go to staging Tuesday."
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "score": 0.8788,
+      "variants": [
+        {
+          "id": "dec_00076",
+          "text": "Approve a hiring freeze for the design team."
+        },
+        {
+          "id": "dec_00080",
+          "text": "The design team hiring freeze was approved."
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "score": 0.8659,
+      "variants": [
+        {
+          "id": "dec_00156",
+          "text": "Set KPI KPI-313 target to 30 for squad SQ-313."
+        },
+        {
+          "id": "dec_00157",
+          "text": "Squad SQ-313 has a target of 30 on KPI-313."
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "score": 0.8641,
+      "variants": [
+        {
+          "id": "dec_00067",
+          "text": "Admin users must authenticate with a second factor."
+        },
+        {
+          "id": "dec_00070",
+          "text": "Multi-factor authentication is mandatory for admins."
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "score": 0.8594,
+      "variants": [
+        {
+          "id": "dec_00081",
+          "text": "Launch the billing redesign in March."
+        },
+        {
+          "id": "dec_00082",
+          "text": "Release the updated billing experience during March."
+        },
+        {
+          "id": "dec_00085",
+          "text": "The billing redesign will launch in March."
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "score": 0.8581,
+      "variants": [
+        {
+          "id": "dec_00096",
+          "text": "Archive inactive support tickets after 60 days."
+        },
+        {
+          "id": "dec_00099",
+          "text": "Tag inactive support tickets after 60 days."
+        },
+        {
+          "id": "dec_00100",
+          "text": "Inactive support tickets will be archived after sixty days."
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "score": 0.8534,
+      "variants": [
+        {
+          "id": "dec_00078",
+          "text": "Continue hiring for the design team."
+        },
+        {
+          "id": "dec_00079",
+          "text": "Review the design team hiring plan."
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "score": 0.852,
+      "variants": [
+        {
+          "id": "dec_00061",
+          "text": "Switch customer billing from monthly to annual."
+        },
+        {
+          "id": "dec_00062",
+          "text": "Invoice customers yearly instead of monthly."
+        },
+        {
+          "id": "dec_00065",
+          "text": "Customer billing will move from monthly to annual."
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "score": 0.8417,
+      "variants": [
+        {
+          "id": "dec_00166",
+          "text": "Route region REG-1 traffic to cluster CLS-1."
+        },
+        {
+          "id": "dec_00170",
+          "text": "Traffic from REG-1 will be routed to CLS-1."
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "score": 0.8415,
+      "variants": [
+        {
+          "id": "dec_00021",
+          "text": "Ship the mobile app on Friday."
+        },
+        {
+          "id": "dec_00022",
+          "text": "The mobile application goes live Friday."
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "score": 0.8391,
+      "variants": [
+        {
+          "id": "dec_00136",
+          "text": "Promote employee EMP-3813 to level L6."
+        },
+        {
+          "id": "dec_00137",
+          "text": "Employee EMP-3813 will advance to grade L6."
+        },
+        {
+          "id": "dec_00140",
+          "text": "EMP-3813 was approved for promotion to L6."
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "score": 0.836,
+      "variants": [
+        {
+          "id": "dec_00106",
+          "text": "Ship hotfix HF-42 for bug BUG-42 tonight."
+        },
+        {
+          "id": "dec_00107",
+          "text": "Deploy hotfix HF-42 addressing BUG-42 this evening."
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "score": 0.8251,
+      "variants": [
+        {
+          "id": "dec_00071",
+          "text": "Move continuous integration to GitHub Actions."
+        },
+        {
+          "id": "dec_00072",
+          "text": "CI pipelines will migrate to GitHub Actions."
+        },
+        {
+          "id": "dec_00075",
+          "text": "We decided to migrate CI to GitHub Actions."
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "score": 0.8242,
+      "variants": [
+        {
+          "id": "dec_00191",
+          "text": "Restrict data exports to EU-hosted storage."
+        },
+        {
+          "id": "dec_00192",
+          "text": "Exported data must remain in European Union storage."
+        },
+        {
+          "id": "dec_00195",
+          "text": "Data exports will be limited to EU storage locations."
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "score": 0.8218,
+      "variants": [
+        {
+          "id": "dec_00196",
+          "text": "Decommission server SRV-18 after the migration."
+        },
+        {
+          "id": "dec_00197",
+          "text": "Retire host SRV-18 once migration finishes."
+        },
+        {
+          "id": "dec_00200",
+          "text": "Server SRV-18 will be decommissioned after migration."
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "score": 0.8167,
+      "variants": [
+        {
+          "id": "dec_00026",
+          "text": "Retire the legacy billing API by December."
+        },
+        {
+          "id": "dec_00027",
+          "text": "Sunset the old billing API before year-end."
+        },
+        {
+          "id": "dec_00030",
+          "text": "The legacy billing API will be retired by December."
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "score": 0.8028,
+      "variants": [
+        {
+          "id": "dec_00086",
+          "text": "Set priority-one incident SLA to one hour."
+        },
+        {
+          "id": "dec_00090",
+          "text": "The P1 incident SLA is one hour."
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "score": 0.7874,
+      "variants": [
+        {
+          "id": "dec_00033",
+          "text": "Ban remote work three days per week."
+        },
+        {
+          "id": "dec_00034",
+          "text": "Require three in-office days per week."
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "score": 0.7836,
+      "variants": [
+        {
+          "id": "dec_00161",
+          "text": "Rename project PRJ-65 to codename onyx65."
+        },
+        {
+          "id": "dec_00162",
+          "text": "Project PRJ-65 will be called onyx65."
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "score": 0.7833,
+      "variants": [
+        {
+          "id": "dec_00036",
+          "text": "Rotate production API keys every 30 days."
+        },
+        {
+          "id": "dec_00037",
+          "text": "Production API credentials must rotate monthly."
+        },
+        {
+          "id": "dec_00040",
+          "text": "Production API keys will be rotated every thirty days."
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "score": 0.7792,
+      "variants": [
+        {
+          "id": "dec_00091",
+          "text": "Use PostgreSQL as the primary datastore."
+        },
+        {
+          "id": "dec_00092",
+          "text": "Postgres will be our system of record."
+        },
+        {
+          "id": "dec_00095",
+          "text": "The primary datastore will be PostgreSQL."
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "score": 0.7755,
+      "variants": [
+        {
+          "id": "dec_00151",
+          "text": "Block IP range 10.0.1.0/24 after incident INC-1."
+        },
+        {
+          "id": "dec_00155",
+          "text": "Following INC-1, the 10.0.1.0/24 subnet will be blocked."
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@ from sklearn.neighbors import NearestNeighbors
 from store import DEFAULT_DB_PATH, DecisionStore
 
 ROOT = Path(__file__).parent
-DEFAULT_INPUT = ROOT / "data" / "decisions.json"
+DEFAULT_INPUT = ROOT / "data" / "experiment_decision_dataset_10k.json"
 DEFAULT_OUTPUT = ROOT / "output" / "top_duplicates.json"
 
 
